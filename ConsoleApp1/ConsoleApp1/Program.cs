@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello mars");
             Console.WriteLine("Hellow mars again");
-            Console.WriteLine("Feature branch 3 - development 3");
+            Console.WriteLine("Feature branch 3 - development 1");
         }
         
     }
