@@ -12,6 +12,8 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello mars");
             Console.WriteLine("Hellow mars again");
+
+            Console.WriteLine("Feature branch 1 - development 2");
         }
         
     }
