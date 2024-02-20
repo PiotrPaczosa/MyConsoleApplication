@@ -396,3 +396,22 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/ConsoleApp/MessageLibrary/Properties/AssemblyInfo.cs
+/ConsoleApp/MessageLibrary/Properties
+/ConsoleApp/MessageLibrary/Messenger.cs
+/ConsoleApp/MessageLibrary/MessageLibrary.csproj
+/ConsoleApp/MessageLibrary
+/ConsoleApp/ConsoleApp.sln
+/ConsoleApp/ConsoleApp/Properties/AssemblyInfo.cs
+/ConsoleApp/ConsoleApp/Properties
+/ConsoleApp/ConsoleApp/Program.cs
+/ConsoleApp/ConsoleApp/ConsoleApp.csproj
+/ConsoleApp/ConsoleApp/App.config
+/ConsoleApp/ConsoleApp
+/ConsoleApp/CA2/Properties/AssemblyInfo.cs
+/ConsoleApp/CA2/Properties
+/ConsoleApp/CA2/Program.cs
+/ConsoleApp/CA2/CA2.csproj
+/ConsoleApp/CA2/App.config
+/ConsoleApp/CA2
+/ConsoleApp
