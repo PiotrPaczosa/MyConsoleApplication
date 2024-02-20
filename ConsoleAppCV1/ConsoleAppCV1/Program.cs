@@ -19,16 +19,22 @@ namespace ConsoleAppCV1
             trcType = (TransactionType)Enum.Parse(typeof(TransactionType), userInput, true);
 
             var sign = trcType == 0 ? -1 : 1;
+            var factor = trcType == 0 ? 0 : 1;
 
             Console.WriteLine("Please insert the Nominal");
-            var nominal = Convert.ToInt32(Console.ReadLine());
+            var nominal = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please insert the price");
             var price = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("Please insert the original price");
+            var orgprice = Convert.ToDouble(Console.ReadLine());
+
             var result = nominal * price * sign;
+            var pl = (price - orgprice) * nominal * factor;
 
             Console.WriteLine($"Transaction value is {result}");
+            Console.WriteLine($"Transaction profit/loss is {pl}");
             Console.ReadKey();
         }
     }
