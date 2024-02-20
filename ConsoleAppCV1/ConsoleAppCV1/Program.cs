@@ -21,14 +21,25 @@ namespace ConsoleAppCV1
             var sign = trcType == 0 ? -1 : 1;
 
             Console.WriteLine("Please insert the Nominal");
-            var nominal = Convert.ToInt32(Console.ReadLine());
+            var nominal = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("Please insert the price");
             var price = Convert.ToDouble(Console.ReadLine());
 
             var result = nominal * price * sign;
 
-            Console.WriteLine($"Transaction value is {result}");
+            if (trcType == 0)
+            {
+                Console.WriteLine($"Transaction value is {result}");
+            }
+            else
+            {
+                Console.WriteLine("Please insert the original price");
+                var orgprice = Convert.ToDouble(Console.ReadLine());
+                var pl = (price - orgprice) * nominal;
+                Console.WriteLine($"Transaction value is {result}");
+                Console.WriteLine($"Profit/loss on a transaction is {pl}");
+            }
             Console.ReadKey();
         }
     }
