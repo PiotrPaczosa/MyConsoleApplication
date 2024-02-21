@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppCV1
 {
-    public enum TransactionType 
-    { buy, sell }
     class Program
     {
         static void Main(string[] args)
